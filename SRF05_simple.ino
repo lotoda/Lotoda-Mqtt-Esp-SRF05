@@ -5,16 +5,16 @@
 const unsigned int TRIG_PIN=5;
 const unsigned int ECHO_PIN=4;
 
-#define WIFI_SSID "LOTODA"   //Enter your WIFI SSID
-#define WIFI_PASSWORD "0388187172"   //Enter your WiFi password
+#define WIFI_SSID "xxxx"   //Enter your WIFI SSID
+#define WIFI_PASSWORD "xxxx"   //Enter your WiFi password
 #define BUILTIN_LED 2
 char LotodaServer[]  = "app.lotoda.vn";     //app.lotoda.vn is the default servername
 int LotodaPort  = 1883;                     //1883 is the default port
 char deviceId[]  = "LotodaEsp8266-0001";  //every device should have a different name
-char topic[]  = "794fe7dc5d/SRF05"; //Enter <User_ID_Key> from LOTODA system, the topic should be different for each device as well
+char topic[]  = "<User_ID_Key>/SRF05"; //Enter <User_ID_Key> from LOTODA system, the topic should be different for each device as well
                                             //Please create this new topic on LOTODA mobile app, in this case is "lamp/power"
-char User_ID_Key[]  = "794fe7dc5d";         //Enter <User_ID_Key> from LOTODA system
-char Password_ID_Key[]  = "g6xrX3InCzkgoMwOEf";  //Enter <Password_ID_Key> from LOTODA system
+char User_ID_Key[]  = "<User_ID_Key>";         //Enter <User_ID_Key> from LOTODA system
+char Password_ID_Key[]  = "<Password_ID_Key>";  //Enter <Password_ID_Key> from LOTODA system
 
 WiFiClient wifiClient;
 PubSubClient client(wifiClient);
