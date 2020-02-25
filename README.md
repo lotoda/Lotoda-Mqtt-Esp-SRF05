@@ -25,6 +25,6 @@ Thông số kỹ thuật:
 - Tần số: 40KHz
 - Khoảng cách đo được xa nhất: 3 m
 - Phát hiện vật cản trong khoảng: 3cm đến 3m
-- Kích thước nhỏ gọn: 43mm x 20mm x 17mm 
+- Kích thước: 43mm x 20mm x 17mm 
 
 IoT LOTODA platform "Your IoT Connected Devices" www.lotoda.vn
