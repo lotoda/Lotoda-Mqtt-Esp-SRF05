@@ -2,7 +2,7 @@
 
 Bạn dễ dàng kết nối đến LOTODA platform bằng Board ESP8266 để tạo một dự án đọc khoảng cách từ cảm biến siêu âm SRF05 và vẽ đồ thị trên app Lotoda theo thời gian thực! Hãy download code tại đây và sử dụng Arduno IDE để nạp code!
 
-Để biết thêm chi tiết xem thêm video tại website: https://.lotoda.vn và https://shop.lotoda.vn
+Để biết thêm chi tiết xem thêm video tại website: https://lotoda.vn và https://shop.lotoda.vn
 
 # Sơ đồ đấu nối như sau:
 
